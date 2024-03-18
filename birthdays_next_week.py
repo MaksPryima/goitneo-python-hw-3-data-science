@@ -52,4 +52,4 @@ def get_birthdays_per_week(users: list[dict]) -> None:
     return [
         f"{birthday.strftime('%A')}: {', '.join(sorted(to_celebrate[birthday]))}"
         for birthday in sorted_birthdays
-    ]  # Sorting lists of people as well
+    ] 
